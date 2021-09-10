@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "package": "npm run build && zip -r dist.zip dist"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.154",
